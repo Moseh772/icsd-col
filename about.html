@@ -1,27 +1,123 @@
-<!DOCTYPE html>
+ html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us | Our Team</title>
+    <style>
+        
+        body {
+            font-family: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            background: #fefefe;
+            color: #1a2a3a;
+            line-height: 1.5;
+        }
+        .nav-links {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.75rem;
+        }
+        .nav-links a {
+            margin-right: 1.2rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #2c5282;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: #1a365d;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #0f2b3d;
+            border-left: 5px solid #3182ce;
+            padding-left: 1rem;
+        }
+        /* clearfix for floated image */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .intro-text {
+            margin-bottom: 2rem;
+        }
+        .second-image-container {
+            text-align: center;
+            margin: 2.5rem 0 1.5rem;
+        }
+        .second-image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+        }
+        .caption {
+            font-size: 0.85rem;
+            color: #4a5568;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        hr {
+            margin: 2rem 0;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #cbd5e0, transparent);
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #718096;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
 
-   <a href="./">Home</a> &#65272
-   <a href="about.html">About Us</a> &#65272
-   <a href="contact.html">Contact Us</a>
+<div class="nav-links">
+    <a href="./">🏠 Home</a> &nbsp;|&nbsp;
+    <a href="about.html">📖 About Us</a> &nbsp;|&nbsp;
+    <a href="contact.html">📞 Contact Us</a>
+</div>
 
-   <h1>About Us</h1>
+<h1>About Us</h1>
 
-   <!-- Image added (left) -->
-   <img src="images/image2.jpg" alt="image 2" width="400" style="float: left; margin-right: 20px;">
 
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quasi, deleniti omnis deserunt unde magnam consequuntur quaerat animi ratione nesciunt! Minima iure officiis autem amet suscipit fuga molestiae dolore ipsum.</p>
+<div class="clearfix">
+    <img src="https://picsum.photos/id/104/400/300" 
+         alt="Office collaboration" 
+         width="400" 
+         style="float: left; margin-right: 25px; margin-bottom: 15px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    
+    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Perferendis quasi, deleniti omnis deserunt unde magnam cupiditate? Quas, at. Repellendus, vitae minima? Ipsa, repellat debitis. Natus maxime iure voluptates repellendus eveniet.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dignissimos rerum labore amet vero. Voluptate molestiae voluptatem, magnam numquam odit accusamus quibusdam quisquam. Assumenda, distinctio. Fugiat eaque atque quos placeat!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, repellendus consequatur? Quibusdam recusandae, voluptatibus error expedita atque perspiciatis eaque maxime ex distinctio? Eveniet asperiores assumenda unde fugit, iste nemo totam?</p>
+</div>
 
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dignissimos rerum labore amet vero. Voluptate molestias distinctio libero aut natus. In quas atque deleniti dolores perspiciatis ad dicta error hic.</p>
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, repellendus consequatur? Quibusdam reiciendis, a dolorem omnis est doloribus! Omnis, ex expedita reprehenderit minima quaerat rem provident tempora ut incidunt saepe!</p>
+<div class="second-image-container">
+    <img src="https://picsum.photos/id/20/800/400" 
+         alt="Team working together" 
+         width="800" 
+         style="width: 100%; max-width: 850px; border-radius: 24px;">
+    <div class="caption">✨ Our creative workspace – building ideas together ✨</div>
+</div>
+
+
+<p style="margin-top: 1rem;">We believe in transparency, innovation, and human-centric design. The image above captures our daily collaboration vibe — where every voice matters. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Natus maxime iure voluptates repellendus eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque minus sed alias nemo consequatur, commodi est voluptates repellat officiis quisquam! Eveniet asperiores assumenda unde fugit, iste nemo totam.</p>
+
+<hr />
+
+<footer>
+    <p>📍 Based in creative space | © 2025 About Us page — built with ✨</p>
+    <p><small>Images from <a href="https://picsum.photos/" target="_blank" style="color:#2b6cb0;">Picsum</a> (replace with your own)</small></p>
+</footer>
 
 </body>
 </html>
